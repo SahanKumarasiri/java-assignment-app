@@ -37,8 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimaryDark"
-        android:text="Pay Now"
+        android:background="#8E8686"
+        android:text="💸 Pay Now"
         android:textColor="@android:color/white"
         android:textSize="20sp" />
 </RelativeLayout>
