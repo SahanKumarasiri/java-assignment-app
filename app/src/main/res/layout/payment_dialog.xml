@@ -1,0 +1,31 @@
+<!-- res/layout/payment_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_text_card_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Card Number"/>
+
+    <EditText
+        android:id="@+id/edit_text_expiration_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expiration Date"/>
+
+    <EditText
+        android:id="@+id/edit_text_cvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CVV"/>
+
+    <Button
+        android:id="@+id/button_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay"/>
+
+</LinearLayout>
